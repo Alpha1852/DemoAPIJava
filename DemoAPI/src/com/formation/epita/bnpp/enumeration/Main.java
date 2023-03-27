@@ -1,3 +1,5 @@
+package com.formation.epita.bnpp.enumeration;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Cast et transtypage");
