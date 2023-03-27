@@ -1,14 +1,16 @@
 package com.formation.epita.bnpp.enumeration.ex1;
 
 public enum JourSemaine {
-    DIMANCHE,
-    LUNDI,
-    MARDI,
-    MERCREDI,
-    JEUDI,
-    VENDREDI,
-    SAMEDI;
+    DIMANCHE (true),
+    LUNDI(false),
+    MARDI(false),
+    MERCREDI(false),
+    JEUDI(false),
+    VENDREDI(false),
+    SAMEDI(true);
 
-
-
+    private boolean jourWeekend;
+    JourSemaine(boolean jourWeekend) {
+        this.jourWeekend = jourWeekend;
+    }
 }
